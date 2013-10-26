@@ -10,4 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIToolbar *testToolbar;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *leftButton;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *middleButton;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *rightButton;
+
+- (IBAction)leftButtonPressed:(id)sender;
+- (IBAction)middleButtonPressed:(id)sender;
+- (IBAction)rightButtonPressed:(id)sender;
+
 @end

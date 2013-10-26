@@ -18,12 +18,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)leftButtonPressed:(id)sender {
+    NSLog(@"left button pressed");
+}
+
+- (IBAction)middleButtonPressed:(id)sender {
+    NSLog(@"middle button pressed");
+}
+
+- (IBAction)rightButtonPressed:(id)sender {
+    NSLog(@"right button pressed");
 }
 
 @end
